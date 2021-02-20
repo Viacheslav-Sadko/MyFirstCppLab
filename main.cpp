@@ -36,7 +36,7 @@ int main()
     {
         for (float x = x1; x <= x2; x += h)
         {
-            if (x1 < 0 && b < 0)
+            if (x < 0 && b < 0)
             {
                 y = 2 * a * x + b * pow(x, 3);
                 cout<<"|"<<setw(10)<<x<<setw(10)<<"|"<<setw(10)<<y<<setw(10)<<"|"<<endl;
